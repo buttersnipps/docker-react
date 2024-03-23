@@ -52,6 +52,6 @@ jobs:
           application_name: frontend
           environment_name: Frontend-env
           version_label: "docker-app-${{ steps.format-time.outputs.replaced }}"
-          region: us-west-2
+          region: us-east-2
           deployment_package: deploy.zip
 
