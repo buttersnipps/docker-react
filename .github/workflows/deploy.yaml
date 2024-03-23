@@ -26,4 +26,4 @@ jobs:
           context: .
           file: Dockerfile.prod
           push: true
-          tags: docker-react/frontend:latest
+          tags: sbarua91/fdocker-react:latest
